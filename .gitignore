@@ -1,0 +1,68 @@
+# git config --global core.excludesfile '~/.gitignore'
+# see http://groups.google.com/group/peepcode/browse_thread/thread/fe6f9c1fc9d6e725
+
+.git
+.svn
+.hg
+.zip
+.gz
+
+.DS_Store
+
+# IntelliJ - PhpStorm and PyCharm
+.idea
+.idea/
+.idea/*
+*.iml
+*.ipr
+*.iws
+
+# Netbeans
+nbproject
+.nbproject
+.nbproject/*
+nbproject/*
+nbproject/private/
+/build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
+
+*~
+*.swp
+*.swo
+*.swn
+*.tmp
+*.save
+.sass*
+
+.netrwhist
+.session.vim
+t.*
+
+node_modules
+logs/*
+npm-debug.log
+
+.*-cache
+.project
+.build_*
+.installed
+
+/css/
+html/api/upload/*.*
+docs/
+release/
+html/json
